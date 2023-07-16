@@ -1,0 +1,50 @@
+* {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@400;500;700&display=swap");
+}
+.category {
+  padding-top: 78px;
+  padding-bottom: 88px;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    h1 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 45px;
+      text-align: center;
+      color: #151414;
+      margin: 0;
+      margin-bottom: 24px;
+    }
+    .dark{
+      color: white;
+    }
+
+    .cate {
+      border: 1px solid #1890ff;
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px 0;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+}
+
+@media(max-width:600px){
+    .category{
+        .container{
+          h1{
+            font-size: 23px;
+
+          }
+         
+        }
+    }
+}

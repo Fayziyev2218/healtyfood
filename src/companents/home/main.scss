@@ -1,0 +1,246 @@
+* {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  
+  
+  @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@400;500;700&display=swap");
+   
+}
+
+.home {
+  padding: 130px 0;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    .home_page {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      .home_text {
+        text-align: left;
+        width: 50%;
+        h1 {
+          font-family: "Sharp Sans No1";
+          font-style: normal;
+          font-weight: 770;
+          font-size: 71px;
+          line-height: 80px;
+          color: #181d19;
+          margin: 0;
+          margin-bottom: 25px;
+          span {
+            color: #5fb848;
+          }
+        }
+        p {
+          font-family: "Sharp Sans No1";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 34px;
+          color: #181d19;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+        .dark{
+          color: white;
+        }
+      }
+
+      .home_img {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .home_page2 {
+      padding-top: 130px;
+
+      h2 {
+        font-family: "Sharp Sans No1";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 68px;
+        text-align: center;
+        color: #151414;
+        margin: 0;
+        margin-bottom: 15px;
+      }
+      h3 {
+        font-family: "Sharp Sans No1";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #3b433e;
+        margin: 0;
+        margin-bottom: 55px;
+      }
+      .dark{
+        color: white;
+      }
+
+      .home_page2_card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .home_cardd {
+          padding-top: 66px;
+          width: 30%;
+          h3 {
+            font-family: "Sharp Sans No1";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+            color: #181d19;
+            margin: 0;
+            margin-top: 35px;
+            margin-bottom: 14px;
+          }
+          .home_h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 55px;
+            text-align: center;
+            color: #000000;
+          }
+          p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #0000008c;
+
+          }
+          .dark{
+            color: #f0f0f0;
+          }
+        }
+      }
+
+      .home_page2_card22{
+        display: flex;
+        gap: 68px;
+        margin: 0 auto;
+        justify-content: center;
+        .home_cardd {
+          padding-top: 66px;
+          width: 20%;
+          h3 {
+            font-family: "Sharp Sans No1";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+            color: #181d19;
+            margin: 0;
+            margin-top: 35px;
+            margin-bottom: 14px;
+          }
+          .home_h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 55px;
+            text-align: center;
+            color: #000000;
+          }
+          p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #0000008c;
+
+          }
+          .dark{
+            color: #8c8c8c;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 958px) {
+  .home {
+    .container {
+      .home_page {
+        flex-direction: column;
+        .home_text {
+          width: 90%;
+        }
+        .home_img {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .home {
+    padding-top: 110px;
+    .container {
+      width: 90%;
+      .home_page {
+        flex-direction: column;
+        .home_text {
+          width: 90%;
+         
+          h1 {
+            font-size: 48px;
+            line-height: 53px;
+          }
+          p {
+            font-size: 18px;
+            line-height: 28px;
+          }
+         
+        }
+        .home_img {
+          width: 90%;
+        }
+      }
+
+      .home_page2 {
+        h2{
+          font-size: 41px;
+
+        }
+        h3{
+          font-size: 19px;
+          line-height: 25px;
+        }
+
+        .home_page2_card {
+          flex-direction: column;
+          .home_cardd {
+            width: 70%;
+          }
+        }
+
+        .home_page2_card22 {
+          padding-top: 70px;
+          flex-wrap: wrap;
+          gap: 0;
+          .home_cardd {
+            width: 50%;
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}

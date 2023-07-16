@@ -1,0 +1,143 @@
+*{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@400;500;700&display=swap');
+
+}
+.procateg{
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        .procategory{
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            flex-wrap: wrap;
+      
+            .pro_link {
+              text-decoration: none;
+              width: 30%;
+              .pro_sing_link {
+                background: #ffffff;
+                border: 1px solid #ebebeb;
+                border-radius: 20px;
+                // width: 18rem;
+      
+                padding: 15px;
+                text-align: left;
+      
+                .pro_img {
+                  img {
+                    // width: 190px;
+                    height: 190px;
+                    width: 100%;
+      
+                    border-radius: 20px;
+                  }
+                }
+      
+                h2 {
+                  font-family: "Sharp Sans No1";
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 19px;
+                  line-height: 23px;
+                  // text-align: center;
+                  color: #181d19;
+                  margin: 0;
+                  margin-bottom: 14px;
+                  margin-top: 12px;
+                }
+                h3 {
+                  font-family: "Sharp Sans No1";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 17px;
+                  line-height: 38px;
+                  // text-align: center;
+                  color: #181d19;
+                  margin: 0;
+                  margin-bottom: 14px;
+                  padding: 0;
+                }
+                h4 {
+                  font-family: "Sharp Sans No1";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 38px;
+                  // text-align: center;
+                  color: #181d19;
+                  margin: 0;
+                }
+      
+                &:hover {
+                  box-shadow: -15px 50px 81px #ffffff,
+                    10px 20px 70px rgba(71, 68, 68, 0.08);
+                }
+
+                .dark{
+                  color: white;
+                }
+      
+                &:hover {
+                  box-shadow: -15px 50px 81px #ffffff,
+                    10px 20px 70px rgba(71, 68, 68, 0.08);
+                }
+              }
+              .dark{
+                background: #434343;
+                &:hover{
+                  box-shadow: none;
+                }
+              }
+            }
+        }
+    }
+}
+
+@media(max-width:950px){
+    .procateg{
+      .container{
+        width: 95%;
+        margin: 0 auto;
+        .procategory{
+          // flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          .pro_link{
+            width: 29%;
+
+            // .pro_sing_link{
+                
+              
+            // }
+          }
+          
+        }
+      }
+    }
+    
+  }
+  
+  @media(max-width:600px){
+    .procateg{
+      .container{
+        width: 90%;
+        margin: 0 auto;
+        .procategory{
+          flex-direction: column;
+          align-items: center;
+          .pro_link{
+            width: 69%;
+
+            .pro_sing_link{
+              margin: 0 auto;
+              
+            }
+          }
+          
+        }
+      }
+    }
+    
+  }

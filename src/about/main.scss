@@ -1,0 +1,185 @@
+* {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@400;500;700&display=swap");
+}
+
+.about {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    .abouu {
+
+
+      .about_page {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        margin-bottom: 120px;
+        .home_text {
+          text-align: left;
+          width: 50%;
+          h2 {
+            font-family: "Sharp Sans No1";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 80px;
+            color: #181d19;
+            margin: 0;
+            margin-bottom: 25px;
+            span {
+              color: #5fb848;
+            }
+          }
+          p {
+            font-family: "Sharp Sans No1";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 34px;
+            color: #181d19;
+            margin: 0;
+            margin-bottom: 20px;
+          }
+
+          .dark{
+            color: white;
+          }
+          
+        }
+
+
+        .home_img {
+          width: 40%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .about_page1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        margin-bottom: 120px;
+        .home_text {
+          text-align: left;
+          width: 50%;
+          h1 {
+            font-family: "Sharp Sans No1";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 80px;
+            color: #181d19;
+            margin: 0;
+            margin-bottom: 25px;
+            span {
+              color: #5fb848;
+            }
+          }
+          p {
+            font-family: "Sharp Sans No1";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 34px;
+            color: #181d19;
+            margin: 0;
+            margin-bottom: 20px;
+          }
+
+          .dark{
+            color: white;
+          }
+        }
+      
+
+        .home_img {
+          width: 40%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 958px) {
+    .about {
+      .container {
+        .abouu{
+            .about_page {
+                flex-direction: column;
+                gap: 44px;
+                
+                .home_text {
+                  width: 90%;
+                  h2{
+                    font-size: 39px;
+                    line-height: 47px;
+
+                  }
+                }
+                .home_img {
+                  width: 60%;
+                }
+              }
+
+              .about_page1 {
+                flex-direction: column-reverse;
+                gap: 90px;
+                
+                .home_text {
+                  width: 90%;
+                  h2{
+                    font-size: 39px;
+                    line-height: 47px;
+
+                  }
+                }
+                .home_img {
+                  width: 60%;
+                }
+              }
+        }
+        
+      }
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .about {
+      padding-top: 110px;
+      .container {
+        width: 90%;
+        .abouu{
+          padding-bottom: 50px;
+            .about_page {
+                flex-direction: column;
+                .home_text {
+                  width: 90%;
+                  h2 {
+                    font-size: 39px;
+                    line-height: 47px;
+                  }
+                  p {
+                    font-size: 18px;
+                    line-height: 28px;
+                  }
+                }
+                .home_img {
+                  width: 80%;
+                }
+              }
+        }
+       
+      }
+    }
+  }
+  

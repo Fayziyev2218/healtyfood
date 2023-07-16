@@ -1,0 +1,113 @@
+* {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@400;500;700&display=swap");
+}
+.navbar {
+    box-shadow: 0 10px 15px gainsboro;
+   
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 17px 0;
+      .logo{
+        a {
+          text-decoration: none;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 27px;
+          color: #2c3847;
+          margin: 0;
+          &:hover{
+            color: #5FB848;
+          }
+        
+         
+        }
+        .dark{
+          color: white;
+        }
+      
+      }
+    
+
+      .nav_list {
+        .nav_down{
+            display: none;
+            background: white;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .bg_ligh_nav{
+          display: none;
+          background: white;
+          padding: 7px;
+          border-radius: 10px;
+        }
+        
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 27px;
+              color: #2c3847;
+              margin: 0;
+              &:hover{
+                color: #5FB848;
+              }
+             
+            }
+            .dark{
+              color: white;
+            }
+          
+          }
+          .bg_ligh{
+            background: white;
+            padding: 7px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media(max-width:850px){
+    .navbar{
+        .container{
+            .nav{
+                .nav_list{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 12px;
+                    .nav_ul{
+                        display: none;
+                    }
+
+                    .nav_down{
+                        display: block;
+                    }
+                    .bg_ligh_nav{
+                      display: block;
+                    }
+                }
+               
+            }
+        }
+    }
+}
